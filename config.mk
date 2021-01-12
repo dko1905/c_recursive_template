@@ -7,7 +7,7 @@ PKG_CONFIG = pkg-config
 # Paths
 PREFIX = /usr/local
 
-# Includes and libs
+# Includes and libs (global)
 INCS = #`$(PKG_CONFIG) --cflags zlib`
 LIBS = #`$(PKG_CONFIG) --libs zlib`
 

@@ -11,11 +11,11 @@ options:
 	@echo "CC      = $(CC)"
 
 program:
-	$(MAKE) -C src CONFIG_MK="`pwd`/config.mk" INC="`pwd`" all
+	$(MAKE) -C src CONFIG_MK="`pwd`/config.mk" INC="-I `pwd`" all
 	cp src/program program
 
 clean:
 	rm -f program
-	$(MAKE) -C src CONFIG_MK="`pwd`/config.mk" INC="`pwd`" clean
+	$(MAKE) -C src CONFIG_MK="`pwd`/config.mk" INC="-I `pwd`" clean
 
 .PHONY: all options program clean

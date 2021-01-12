@@ -7,7 +7,7 @@ OBJECTS = main.o
 all: program
 
 .c.o:
-	$(CC) $(MYCFLAGS) -I $(INC) -c $<
+	$(CC) $(MYCFLAGS) $(INC) -c $<
 
 hello:
 	$(MAKE) -C hello CONFIG_MK=$(CONFIG_MK) INC=$(INC) all
