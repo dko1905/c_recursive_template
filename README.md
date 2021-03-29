@@ -4,10 +4,10 @@ that are fully POSIX compliant. The Makefiles support the `-j` flag fully.
 This project has a demo `main.c` and a subfolder called `hello` with a
 `hello.c` file.
 
-# Applying the template
+## Applying the template
 The default program name is "program", and should be changed for your use.
 
-# License
+## License
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
